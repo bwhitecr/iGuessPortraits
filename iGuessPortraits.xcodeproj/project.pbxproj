@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2503765B4EEF082EC812E625 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD83199C1E1D7DDD445A31D5 /* libPods.a */; };
 		55C3B3961AA032260069FCEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3951AA032260069FCEE /* AppDelegate.swift */; };
 		55C3B3981AA032260069FCEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3971AA032260069FCEE /* ViewController.swift */; };
 		55C3B39B1AA032260069FCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C3B3991AA032260069FCEE /* Main.storyboard */; };
 		55C3B39D1AA032260069FCEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C3B39C1AA032260069FCEE /* Images.xcassets */; };
 		55C3B3A01AA032260069FCEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C3B39E1AA032260069FCEE /* LaunchScreen.xib */; };
 		55C3B3AC1AA032260069FCEE /* iGuessPortraitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3AB1AA032260069FCEE /* iGuessPortraitsTests.swift */; };
+		55C3B3B71AA032DD0069FCEE /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3B61AA032DD0069FCEE /* Score.swift */; };
+		55C3B3BD1AA034B50069FCEE /* unicorn (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55C3B3BC1AA034B50069FCEE /* unicorn (1).jpg */; };
+		55C3B3BF1AA0370F0069FCEE /* Portrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3BE1AA0370F0069FCEE /* Portrait.swift */; };
+		55C3B3C51AA03B860069FCEE /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C3B3C41AA03B860069FCEE /* PortraitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,14 @@
 		55C3B3A51AA032260069FCEE /* iGuessPortraitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGuessPortraitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C3B3AA1AA032260069FCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C3B3AB1AA032260069FCEE /* iGuessPortraitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGuessPortraitsTests.swift; sourceTree = "<group>"; };
+		55C3B3B61AA032DD0069FCEE /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		55C3B3B81AA032F70069FCEE /* iGuessPortraits-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGuessPortraits-Bridging-Header.h"; sourceTree = "<group>"; };
+		55C3B3BC1AA034B50069FCEE /* unicorn (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "unicorn (1).jpg"; sourceTree = "<group>"; };
+		55C3B3BE1AA0370F0069FCEE /* Portrait.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portrait.swift; sourceTree = "<group>"; };
+		55C3B3C41AA03B860069FCEE /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
+		9BDD0B6E2D8F5B5D7E13E904 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BD83199C1E1D7DDD445A31D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C87F531E5DC5B3D84A71D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2503765B4EEF082EC812E625 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		148047229613EF2BE53BA2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD0B6E2D8F5B5D7E13E904 /* Pods.debug.xcconfig */,
+				E0C87F531E5DC5B3D84A71D6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		55C3B3871AA032260069FCEE = {
 			isa = PBXGroup;
 			children = (
 				55C3B3921AA032260069FCEE /* iGuessPortraits */,
 				55C3B3A81AA032260069FCEE /* iGuessPortraitsTests */,
 				55C3B3911AA032260069FCEE /* Products */,
+				148047229613EF2BE53BA2E0 /* Pods */,
+				E52DC2C2ABF81C48B5033278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +102,16 @@
 		55C3B3921AA032260069FCEE /* iGuessPortraits */ = {
 			isa = PBXGroup;
 			children = (
+				55C3B3B81AA032F70069FCEE /* iGuessPortraits-Bridging-Header.h */,
+				55C3B3B51AA032BC0069FCEE /* Models */,
 				55C3B3951AA032260069FCEE /* AppDelegate.swift */,
 				55C3B3971AA032260069FCEE /* ViewController.swift */,
 				55C3B3991AA032260069FCEE /* Main.storyboard */,
 				55C3B39C1AA032260069FCEE /* Images.xcassets */,
+				55C3B3BC1AA034B50069FCEE /* unicorn (1).jpg */,
 				55C3B39E1AA032260069FCEE /* LaunchScreen.xib */,
 				55C3B3931AA032260069FCEE /* Supporting Files */,
+				55C3B3C41AA03B860069FCEE /* PortraitViewController.swift */,
 			);
 			path = iGuessPortraits;
 			sourceTree = "<group>";
@@ -112,6 +141,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		55C3B3B51AA032BC0069FCEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55C3B3B61AA032DD0069FCEE /* Score.swift */,
+				55C3B3BE1AA0370F0069FCEE /* Portrait.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E52DC2C2ABF81C48B5033278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD83199C1E1D7DDD445A31D5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55C3B3AF1AA032260069FCEE /* Build configuration list for PBXNativeTarget "iGuessPortraits" */;
 			buildPhases = (
+				47D81A536F006E76B1BFA97F /* Check Pods Manifest.lock */,
 				55C3B38C1AA032260069FCEE /* Sources */,
 				55C3B38D1AA032260069FCEE /* Frameworks */,
 				55C3B38E1AA032260069FCEE /* Resources */,
+				5C0D85353F7FA5F235BF2D6B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,7 +204,8 @@
 		55C3B3881AA032260069FCEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = iOSDevCamp;
 				TargetAttributes = {
 					55C3B38F1AA032260069FCEE = {
@@ -194,6 +243,7 @@
 			files = (
 				55C3B39B1AA032260069FCEE /* Main.storyboard in Resources */,
 				55C3B3A01AA032260069FCEE /* LaunchScreen.xib in Resources */,
+				55C3B3BD1AA034B50069FCEE /* unicorn (1).jpg in Resources */,
 				55C3B39D1AA032260069FCEE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +257,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47D81A536F006E76B1BFA97F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0D85353F7FA5F235BF2D6B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55C3B38C1AA032260069FCEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55C3B3981AA032260069FCEE /* ViewController.swift in Sources */,
+				55C3B3B71AA032DD0069FCEE /* Score.swift in Sources */,
+				55C3B3BF1AA0370F0069FCEE /* Portrait.swift in Sources */,
 				55C3B3961AA032260069FCEE /* AppDelegate.swift in Sources */,
+				55C3B3C51AA03B860069FCEE /* PortraitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +361,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -334,21 +421,30 @@
 		};
 		55C3B3B01AA032260069FCEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDD0B6E2D8F5B5D7E13E904 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iGuessPortraits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.iosdevcamp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iGuessPortraits/iGuessPortraits-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		55C3B3B11AA032260069FCEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C87F531E5DC5B3D84A71D6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iGuessPortraits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.iosdevcamp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iGuessPortraits/iGuessPortraits-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -366,6 +462,7 @@
 				);
 				INFOPLIST_FILE = iGuessPortraitsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.iosdevcamp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGuessPortraits.app/iGuessPortraits";
 			};
@@ -381,6 +478,7 @@
 				);
 				INFOPLIST_FILE = iGuessPortraitsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.iosdevcamp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGuessPortraits.app/iGuessPortraits";
 			};
@@ -405,6 +503,7 @@
 				55C3B3B11AA032260069FCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C3B3B21AA032260069FCEE /* Build configuration list for PBXNativeTarget "iGuessPortraitsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +512,7 @@
 				55C3B3B41AA032260069FCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
